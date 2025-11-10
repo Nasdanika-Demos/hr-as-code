@@ -1,0 +1,42 @@
+Users interact with the system via the User Interface. 
+There might be multiple user interaces used by different users and even by the same user.
+
+## CLI (Command line)
+
+(CLI)[https://docs.nasdanika.org/nsd-cli/index.html] solutions are flexible and low-cost
+comparing to some other options. 
+They can be used on destkops/laptops, in build pipelines, cloud servers and serversless functions.
+
+CLI solutions can "host" the model and business logic and Web UI/API. 
+They can also be used in conjunction with Draw.io.
+
+## Draw.io
+
+[Draw.io](https://www.drawio.com/) is a general-purpose versatile diagramming tool. 
+It can be used to visually create models using [semantic mapping](https://docs.nasdanika.org/core/mapping/index.html) as 
+explained in the [Semantic Mapping](https://medium.com/nasdanika/semantic-mapping-3ccbef5d6c70) 
+and [Visual Communication Continuum](https://medium.com/nasdanika/visual-communication-continuum-4946f44ba853#fe49) stories.
+
+## Web UI
+
+Web UI can be built in a variety of ways including a polymorphic UI generated from the model metadata.
+Web UI requires more effort than CLI/Draw.io. 
+It can includ Draw.io diagrams and other visualizations. 
+
+## Mobile application
+
+Mobile applications would require even more effort.
+
+## API
+
+APIs can be used by automated systems such as AI agents.
+
+## Eclipse Sirius
+
+[Eclipse Sirius](https://eclipse.dev/sirius/) can be used as the next step after Draw.io.
+Eclipse Sirius-based solutions would be specialized, and as such more powerful than Draw.io.
+At the same time, they would require knowledge of Eclipse and more effort to build.
+
+## Eclipse Sirius Web
+
+[Sirius Web](https://eclipse.dev/sirius/sirius-web.html) can be used in a Web browser and would requie a server to run it. 
