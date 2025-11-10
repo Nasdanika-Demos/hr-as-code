@@ -20,6 +20,7 @@ story.
 This can be useful with AI agents - a human can review what was changed by an angent and approve it (human in the loop).
 For example, an agent performs a job search and commits results to a branch. 
 On GitHub/GitLab it creates a pull/merge request.
+A nice thing about it is that an agent can't mess up things - it it goes crazy just delete the branch it created and perhaps retire the agent.
 
 Git-based storage allows to implement a distributed model with parts of the model stored in multiple repositories and branches and cross-referencing each other.
 
